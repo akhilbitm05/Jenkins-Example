@@ -12,7 +12,7 @@ class JenkinsExamoleApplicationTests {
 
 	private static final Logger log = LoggerFactory.getLogger(JenkinsExamoleApplicationTests.class);
 	@Test
-	 contextLoads() {
+	public void contextLoads() {
 		log.info("Test case executed");
 		log.info("Test case executed second log statement");
         assertTrue(true);
