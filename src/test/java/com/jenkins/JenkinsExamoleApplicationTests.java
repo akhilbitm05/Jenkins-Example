@@ -14,7 +14,6 @@ class JenkinsExamoleApplicationTests {
 	@Test
 	public void contextLoads() {
 		log.info("Test case executed");
-		log.info("Test case executed second log statement");
         assertTrue(true);
 	}
 
